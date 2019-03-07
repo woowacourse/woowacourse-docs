@@ -80,7 +80,7 @@ git commit -m "메시지" // 작업한 내용을 메시지에 기록
 ```
 
 기능 구현을 완료하고 add, commit 명령을 실행한 후의 상태는 다음과 같다.
-![add commit1](./images/add_commit_1.png)
+![add commit1](./images/add_commit.png)
 
 ---
 7. 본인 원격 저장소에 올리기
@@ -92,7 +92,7 @@ ex) git push origin javajigi
 ```
 
 push 명령을 실행한 후의 상태는 다음과 같다.
-![push1](./images/push1.png)
+![push1](./images/push.png)
 
 ---
 8. github 서비스에서 pull request를 보낸다.
