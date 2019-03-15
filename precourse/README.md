@@ -1,19 +1,19 @@
 ## 프리코스 과제 제출
 
 ---
-1. 프로젝트를 자신의 계정으로 fork한다. 저장소 우측 상단의 fork 버튼을 활용한다.
-> woowacourse 저장소는 코드를 추가할 권한이 없기 때문에 미션을 진행한 코드를 추가할 수 없다.
+1. 프로젝트를 자신의 계정으로 fork한다. 저장소 우측 상단의 fork 버튼을 클릭해 fork한다.
+> woowacourse 저장소에 코드를 추가할 권한이 없기 때문에 구현한 코드를 추가할 수 없다.
 > 
 > fork는 woowacourse의 저장소를 자신의 계정으로 복사하는 기능이다. 앞으로 모든 미션은 자신의 계정 아래에 있는 저장소를 활용해 진행한다.
 
-fork는 woowacourse 저장소 우측 상단의 fork 버튼을 활용한다.
+다음 그림과 같이 woowacourse 저장소 우측 상단의 fork 버튼을 클릭해 fork한다.
 ![fork](./images/etc/fork.png)
 
-fork를 완료한 후의 상태는 다음과 같다.
+fork를 완료한 후의 저장소 상태는 다음과 같다.
 ![fork my repo](./images/fork_my_repo.png)
 
 ---
-2. fork한 저장소를 자신의 컴퓨터로 clone한 후 디렉토리로 이동한다.
+2. fork한 저장소를 자신의 컴퓨터로 clone한 후 폴더로 이동한다.
 > fork한 저장소는 github.com에 존재하기 때문에 소스 코드를 추가하고, 수정하는 작업을 할 수 없다.
 >
 > clone 명령은 github.com에 존재하는 저장소를 자신의 노트북 또는 PC로 복사하는 과정이다.
@@ -31,14 +31,12 @@ cd {저장소 아이디}
 ex) cd java-baseball
 ```
 
-clone을 완료한 후의 상태는 다음과 같다.
+clone을 완료한 후의 저장소 상태는 다음과 같다.
 ![clone repository](./images/clone_repository.png)
 
 ---
 3. 기능 구현을 위한 브랜치 생성
 > git은 서로 다른 작업을 하기 위한 별도의 공간을 생성할 때 브랜치를 생성할 수 있다.
->
-> 브랜치를 생성하는 이유는 실무에서 프로젝트를 진행할 때와 같은 방법으로 기능을 구현하고, 리뷰하는 경험을 전달하기 위함이다.
 
 터미널에서 다음 명령을 입력해 브랜치를 생성한다.
 
@@ -118,3 +116,14 @@ ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse
 
 pull request를 보냈을 때의 상태는 다음과 같다.
 ![pull request](./images/pull_request.png)
+
+---
+9. 이메일 보내 과제 최종 제출하기
+Pull Request를 보낸 후 다음 양식으로 작성해 woowa_course@woowahan.com 로 메일을 보낸다.
+
+```
+제목: [이름] 숫자 야구게임 과제 제출합니다.
+내용: 
+  이름: 박재성
+  Pull Request URL: https://github.com/woowacourse/java-baseball/pull/1
+```
