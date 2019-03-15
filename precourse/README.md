@@ -48,7 +48,7 @@ ex) git checkout -b javajigi
 ```
 
 브랜치를 생성한 후의 상태는 다음과 같다.
-![checkout javajigi](./images/checkout_step1.png)
+![checkout javajigi](./images/checkout_javajigi.png)
 
 ---
 4. 통합개발도구(Eclipse 또는 IntelliJ)로 가져오기(import)
