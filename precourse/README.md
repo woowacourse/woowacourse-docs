@@ -1,23 +1,7 @@
 ## 프리코스 과제 제출
 
 ---
-1. 저장소 브랜치에 자신의 github 아이디에 해당하는 브랜치가 있는지 확인한다. 브랜치가 없는 경우 woowa_course@woowahan.com 메일이나 [카카오 플러스 친구](https://pf.kakao.com/_budWj)로 브랜치 생성을 요청한다.
-
-자신의 브랜치가 존재하는지 확인하는 방법은 다음과 같다.
-![branches](./images/etc/no_branch_github.png)
-
-브랜치를 생성하기 전 상태는 다음과 같다.
-![no branch](./images/no_branch.png)
-
-자신의 github 계정 브랜치가 생성되어 있으면 다음과 같이 검색이 되어야 한다.
-![no branch](./images/etc/branch_github.png)
-
-브랜치를 생성한 후 상태는 다음과 같다.
-![create branch](./images/create_branch.png)
-
-
----
-2. 프로젝트를 자신의 계정으로 fork한다. 저장소 우측 상단의 fork 버튼을 활용한다.
+1. 프로젝트를 자신의 계정으로 fork한다. 저장소 우측 상단의 fork 버튼을 활용한다.
 > woowacourse 저장소는 코드를 추가할 권한이 없기 때문에 미션을 진행한 코드를 추가할 수 없다.
 > 
 > fork는 woowacourse의 저장소를 자신의 계정으로 복사하는 기능이다. 앞으로 모든 미션은 자신의 계정 아래에 있는 저장소를 활용해 진행한다.
@@ -29,7 +13,7 @@ fork를 완료한 후의 상태는 다음과 같다.
 ![fork my repo](./images/fork_my_repo.png)
 
 ---
-3. fork한 저장소를 자신의 컴퓨터로 clone한 후 디렉토리로 이동한다.
+2. fork한 저장소를 자신의 컴퓨터로 clone한 후 디렉토리로 이동한다.
 > fork한 저장소는 github.com에 존재하기 때문에 소스 코드를 추가하고, 수정하는 작업을 할 수 없다.
 >
 > clone 명령은 github.com에 존재하는 저장소를 자신의 노트북 또는 PC로 복사하는 과정이다.
@@ -37,9 +21,10 @@ fork를 완료한 후의 상태는 다음과 같다.
 터미널에서 다음 명령을 입력한다.
 
 ```
-git clone -b {본인_아이디} --single-branch https://github.com/{본인_아이디}/{저장소 아이디}
-ex) git clone -b javajigi --single-branch https://github.com/javajigi/java-baseball
+git clone https://github.com/{본인_아이디}/{저장소 아이디}.git
+ex) git clone https://github.com/woowacourse/java-baseball.git
 ```
+
 ```
 // clone한 폴더로 이동하는 방법
 cd {저장소 아이디}
@@ -48,6 +33,22 @@ ex) cd java-baseball
 
 clone을 완료한 후의 상태는 다음과 같다.
 ![clone repository](./images/clone_repository.png)
+
+---
+3. 기능 구현을 위한 브랜치 생성
+> git은 서로 다른 작업을 하기 위한 별도의 공간을 생성할 때 브랜치를 생성할 수 있다.
+>
+> 브랜치를 생성하는 이유는 실무에서 프로젝트를 진행할 때와 같은 방법으로 기능을 구현하고, 리뷰하는 경험을 전달하기 위함이다.
+
+터미널에서 다음 명령을 입력해 브랜치를 생성한다.
+
+```
+git checkout -b 브랜치이름
+ex) git checkout -b javajigi
+```
+
+브랜치를 생성한 후의 상태는 다음과 같다.
+![checkout javajigi](./images/checkout_step1.png)
 
 ---
 4. 통합개발도구(Eclipse 또는 IntelliJ)로 가져오기(import)
@@ -98,14 +99,14 @@ push 명령을 실행한 후의 상태는 다음과 같다.
 8. github 서비스에서 pull request를 보낸다.
 > pull request는 github에서 제공하는 기능으로 코드리뷰 요청을 보낼 때 사용한다.
 > 
-> pull request는 original 저장소(next-step의 저장소)의 브랜치(자신의 github 아이디)와 앞 단계에서 생성한 브랜치 이름(앞 단계의 예에서는 step1)을 기준으로 한다.
+> pull request는 original 저장소(woowacourse의 저장소)의 master 브랜치와 앞 단계에서 생성한 브랜치 이름(앞 단계의 예에서는 javajigi)을 기준으로 한다.
 
 ```
-ex) 미션을 진행한 javajigi/java-baseball step1 브랜치 => woowacourse/java-baseball javajigi 브랜치로 pull request를 보낸다.
+ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse/java-baseball master 브랜치로 pull request를 보낸다.
 ```
 
 * 브라우저에서 github 저장소에 접근한다.
-* 브랜치를 작업 브랜치로 변경한다(앞 단계의 예에서는 step1).
+* 브랜치를 작업 브랜치로 변경한다(앞 단계의 예에서는 javajigi).
 * 브랜치 오른쪽에 있는 "New pull request" 버튼을 클릭한다.
 
 ![pull request 보내기](./images/etc/pull_request_1.png)
