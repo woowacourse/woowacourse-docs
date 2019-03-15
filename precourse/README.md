@@ -119,11 +119,13 @@ pull request를 보냈을 때의 상태는 다음과 같다.
 
 ---
 9. 이메일 보내 과제 최종 제출하기
-Pull Request를 보낸 후 다음 양식으로 작성해 woowa_course@woowahan.com 로 메일을 보낸다.
+앞 단계에서 Pull Request를 보낸 후 다음 양식으로 작성해 woowa_course@woowahan.com 로 메일을 보낸다.
 
 ```
-제목: [이름] 숫자 야구게임 과제 제출합니다.
+제목: [미션제출] 숫자 야구게임 미션입니다.
 내용: 
   이름: 박재성
   Pull Request URL: https://github.com/woowacourse/java-baseball/pull/1
 ```
+
+**PuLL Request만 보내고, 메일을 보내지 않으면 미션을 제출하지 않은 것으로 처리되니 착오 없기를 바랍니다.**
