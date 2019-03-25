@@ -109,7 +109,6 @@ ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse
 
 ![pull request 보내기](./images/etc/pull_request_1.png)
 
-* 왼쪽 woowacourse 저장소의 브랜치를 자신의 github 계정 브랜치로 변경한다.
 * 현재 미션에서 작업한 내용을 입력하고 "Create pull request" 버튼을 클릭해 pull request를 보낸다.
 
 ![pull request 브랜치 변경](./images/etc/pull_request_2.png)
