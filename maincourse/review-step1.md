@@ -21,7 +21,7 @@
 ![fork](./images/etc/fork.png)
 
 fork를 완료한 후의 저장소 상태는 다음과 같다.
-![fork my repo](./images/fork_my_repo.jpg)
+![fork my repo](./images/fork_my_repo.png)
 
 ---
 5. fork한 저장소를 자신의 컴퓨터로 clone한 후 폴더로 이동한다.
@@ -32,8 +32,8 @@ fork를 완료한 후의 저장소 상태는 다음과 같다.
 터미널에서 다음 명령을 입력한다.
 
 ```
-git clone https://github.com/{본인_아이디}/{저장소 아이디}.git
-ex) git clone https://github.com/woowacourse/java-baseball.git
+git clone -b {본인_아이디} --single-branch https://github.com/{본인_아이디}/{저장소 아이디}
+ex) git clone -b javajigi --single-branch https://github.com/javajigi/java-baseball.git
 ```
 
 ```
@@ -43,7 +43,7 @@ ex) cd java-baseball
 ```
 
 clone을 완료한 후의 저장소 상태는 다음과 같다.
-![clone repository](./images/clone_repository.jpg)
+![clone repository](./images/clone_repository.png)
 
 ---
 6. 통합개발도구(Eclipse 또는 IntelliJ)로 가져오기(import)
@@ -76,7 +76,7 @@ git commit -m "메시지" // 작업한 내용을 메시지에 기록
 ```
 
 기능 구현을 완료하고 add, commit 명령을 실행한 후의 상태는 다음과 같다.
-![add commit1](./images/add_commit.jpg)
+![add commit1](./images/add_commit.png)
 
 ---
 9. 본인 원격 저장소에 올리기
@@ -88,7 +88,7 @@ ex) git push origin step1
 ```
 
 push 명령을 실행한 후의 상태는 다음과 같다.
-![push](./images/push.jpg)
+![push](./images/push.png)
 
 ---
 10. 미션 요구사항 구현을 완료한 후 팀 관리 메뉴를 클릭해 교육생 간의 상호 평가를 진행한다.
