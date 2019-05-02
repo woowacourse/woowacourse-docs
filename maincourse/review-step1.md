@@ -2,7 +2,7 @@
 코드리뷰 1단계는 교육생끼리 팀을 맺어 코드 리뷰를 진행하고 피드백을 주는 단계까지의 과정을 다룬다.
 
 ---
-1. 강의관리시스템(https://techcourse.woowahan.com, 이하 LMS)에 로그인한 후 학습할 미션으로 이동한다.
+1. 강의관리시스템(https://techcourse.woowahan.com)에 로그인한 후 학습할 미션으로 이동한다.
 
 ---
 2. 팀 관리 메뉴를 클릭해 같이 활동할 팀원이 있는지 확인한다. 팀원이 없으면 팀 배정 요청을 한다.
@@ -76,7 +76,7 @@ git commit -m "메시지" // 작업한 내용을 메시지에 기록
 ```
 
 기능 구현을 완료하고 add, commit 명령을 실행한 후의 상태는 다음과 같다.
-![add commit1](./images/add_commit_1.png)
+![add commit1](./images/add_commit.png)
 
 ---
 9. 본인 원격 저장소에 올리기
@@ -88,7 +88,7 @@ ex) git push origin step1
 ```
 
 push 명령을 실행한 후의 상태는 다음과 같다.
-![push1](./images/push1.png)
+![push](./images/push.png)
 
 ---
 10. 미션 요구사항 구현을 완료한 후 팀 관리 메뉴를 클릭해 교육생 간의 상호 평가를 진행한다.

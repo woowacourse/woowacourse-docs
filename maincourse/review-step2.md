@@ -8,7 +8,8 @@
 > pull request는 original 저장소(woowacourse의 저장소)의 javajigi 브랜치와 앞 단계에서 생성한 브랜치 이름(앞 단계의 예에서는 javajigi)을 기준으로 한다.
 
 ```
-ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse/java-baseball javajigi 브랜치로 pull request를 보낸다.
+ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 
+=> woowacourse/java-baseball javajigi 브랜치로 pull request를 보낸다.
 ```
 
 * 브라우저에서 github 저장소에 접근한다.
@@ -25,17 +26,17 @@ pull request를 보냈을 때의 상태는 다음과 같다.
 ![pull request](./images/pull_request.jpg)
 
 ---
-2. PR을 보낸 후 LMS의 리뷰요청 버튼을 클릭해 리뷰요청을 보낸다.
+2. PR을 보낸 후 강의관리시스템의 리뷰요청 버튼을 클릭해 리뷰요청을 보낸다.
 > 리뷰요청을 하면 slack을 통해 리뷰어에게 리뷰요청에 대한 알림이 간다.
+
+![request code review](./images/etc/request_codereview.png)
 
 ---
 3. 리뷰어가 피드백을 남긴 후 변경 요청(Request Changes)을 하면 피드백 내용을 반영한다.
-* 피드백 내용을 반영한 후 add/commit/push를 진행한다.
-
-* 피드백을 반영한 후 리뷰요청을 다시 보낼 때 PR을 추가로 보내지 않아도 된다.
+* 피드백 내용을 반영한 후 add/commit/push를 진행한다. **피드백을 반영한 후 리뷰요청을 다시 보낼 때 PR을 추가로 보내지 않아도 된다.**
 
 ---
-4. LMS의 리뷰요청 버튼을 클릭해 리뷰요청을 다시 보낸다.
+4. 강의관리시스템의 리뷰요청 버튼을 클릭해 리뷰요청을 다시 보낸다.
 
 ---
 5. 리뷰어가 리뷰를 완료한 후 merge를 하면 해당 미션은 종료된다. 리뷰 진행 과정에서 리뷰어에 대한 피드백을 남긴 후 다음 미션을 진행한다.
