@@ -76,7 +76,7 @@ git commit -m "메시지" // 작업한 내용을 메시지에 기록
 ```
 
 기능 구현을 완료하고 add, commit 명령을 실행한 후의 상태는 다음과 같다.
-![add commit1](./images/add_commit.png)
+![add commit1](./images/add_commit.jpg)
 
 ---
 9. 본인 원격 저장소에 올리기
@@ -88,7 +88,7 @@ ex) git push origin step1
 ```
 
 push 명령을 실행한 후의 상태는 다음과 같다.
-![push](./images/push.png)
+![push](./images/push.jpg)
 
 ---
 10. 미션 요구사항 구현을 완료한 후 팀 관리 메뉴를 클릭해 교육생 간의 상호 평가를 진행한다.
