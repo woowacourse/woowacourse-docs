@@ -2,14 +2,18 @@
 코드리뷰 1단계는 교육생끼리 팀을 맺어 코드 리뷰를 진행하고 피드백을 주는 단계까지의 과정을 다룬다.
 
 ---
-1. 강의관리시스템(https://techcourse.woowahan.com)에 로그인한 후 학습할 미션으로 이동한다.
+1. [강의관리시스템](https://techcourse.woowahan.com)에 로그인한 후 학습할 미션으로 이동한다.  제목 옆에 깃발 아이콘이 있는 것이 미션이다.
+![](./review-step1-images/select-mission.png)
+
 
 ---
 2. 팀 관리 메뉴를 클릭해 같이 활동할 팀원이 있는지 확인한다. 팀원이 없으면 팀 배정 요청을 한다.
+![](./review-step1-images/my-team.png)
 
 ---
 3. 미션으로 이동해 미션 시작 버튼을 클릭해 미션을 시작한다. 
 미션을 시작하면 저장소 브랜치에 자신의 github 아이디에 해당하는 브랜치가 생성된다. 브랜치가 없는 경우 강사에게 브랜치 생성을 요청한다.
+![](./review-step1-images/begin-mission.png)
 
 ---
 4. 프로젝트를 자신의 계정으로 fork한다. 저장소 우측 상단의 fork 버튼을 클릭해 fork한다.
