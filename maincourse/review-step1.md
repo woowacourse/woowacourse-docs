@@ -97,7 +97,7 @@ git commit -m "메시지" // 작업한 내용을 메시지에 기록
 ```
 
 기능 구현을 완료하고 add, commit 명령을 실행한 후의 상태는 다음과 같다.
-![add commit1](./images/add_commit.png)
+![add commit1](./images/add_commit_1.png)
 
 ---
 10. 본인 원격 저장소에 올리기
