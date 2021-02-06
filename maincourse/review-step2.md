@@ -23,7 +23,7 @@ ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치
 ![pull request 브랜치 변경](./images/etc/pull_request_2.png)
 
 pull request를 보냈을 때의 상태는 다음과 같다.
-![pull request](./images/pull_request.png)
+![pull request](./images/pull_request_1.png)
 
 ---
 2. PR을 보낸 후 강의관리시스템의 리뷰요청 버튼을 클릭해 리뷰요청을 보낸다.
