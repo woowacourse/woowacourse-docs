@@ -29,7 +29,7 @@ pull request를 보냈을 때의 상태는 다음과 같다.
 2. PR을 보낸 후 강의관리시스템의 리뷰요청 버튼을 클릭해 리뷰요청을 보낸다.
 > 리뷰요청을 하면 slack을 통해 리뷰어에게 리뷰요청에 대한 알림이 간다.
 
-![request code review](./images/etc/request_codereview.png)
+![request code review](./images/etc/request_code_review.png)
 
 ---
 3. pull request에 대해 승인이 되지 않고 수정 요청 피드백을 받으면 피드백 받은 내용을 반영한다. 만약, pull request가 승인이 되어 next-step 저장소에 통합(merge)이 된다면 [코드리뷰 요청 3단계](./review-step3.md)를 진행한다.
@@ -61,7 +61,7 @@ ex) git push origin step1
 
 ---
 5. 강의관리시스템의 리뷰요청 버튼을 클릭해 리뷰요청을 보낸다.
-![request code review](./images/etc/request_codereview.png)
+![request code review](./images/etc/request_code_review.png)
 
 ---
 6. 몇 번의 피드백을 주고 받은 후 승인이 되어 next-step 저장소에 통합(merge)이 된다면 [코드리뷰 요청 3단계](./review-step3.md)를 진행한다.
