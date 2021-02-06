@@ -9,6 +9,19 @@
   * [맥에 Git 설치하기](http://bkcarrier.tistory.com/35) 문서 참고
 
 ---
-## 코드리뷰 요청 단계
-* [코드리뷰 요청 1단계](./review-step1.md): 교육생끼리 상호 리뷰하는 단계
-* [코드리뷰 요청 2단계](./review-step2.md): 리뷰어에게 리뷰를 요청하고 피드백을 받는 단계
+## 텍스트와 이미지로 살펴보는 코드리뷰 요청 단계
+* [코드리뷰 요청 1단계](./review-step1.md): 미션 진행 후 github에 올리는 단계
+* [코드리뷰 요청 2단계](./review-step2.md): 코드리뷰 요청을 보내고, 피드백을 받은 후 피드백 반영 및 merge하는 단계
+* [코드리뷰 요청 3단계](./review-step3.md): 다음 단계 미션을 위해 준비하는 단계
+
+---
+## 동영상으로 살펴보는 코드리뷰 요청 단계
+
+#### 코드리뷰 요청 1단계 - 미션 진행 후 github에 올리는 단계
+[![코드리뷰 요청 1단계](https://img.youtube.com/vi/YkgBUt7zG5k/0.jpg)](https://youtu.be/YkgBUt7zG5k)
+
+#### 코드리뷰 요청 2단계 - 코드리뷰 요청을 보내고, 피드백을 받은 후 피드백 반영 및 merge하는 단계
+[![코드리뷰 요청 2단계](https://img.youtube.com/vi/HnTdFJd0PtU/0.jpg)](https://youtu.be/HnTdFJd0PtU)
+
+#### 코드리뷰 요청 3단계 - 다음 단계 미션을 위해 준비하는 단계
+[![코드리뷰 요청 3단계](https://img.youtube.com/vi/fzrT3eoecUw/0.jpg)](https://youtu.be/fzrT3eoecUw)
