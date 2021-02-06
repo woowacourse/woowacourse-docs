@@ -61,6 +61,7 @@ ex) git push origin step1
 
 ---
 5. 강의관리시스템의 리뷰요청 버튼을 클릭해 리뷰요청을 보낸다.
+
 ![request code review](./images/etc/request_code_review.png)
 
 ---
