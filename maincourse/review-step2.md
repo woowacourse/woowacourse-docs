@@ -60,7 +60,11 @@ ex) git push origin step1
 ![push2](./images/push2.png)
 
 ---
-5. 몇 번의 피드백을 주고 받은 후 승인이 되어 next-step 저장소에 통합(merge)이 된다면 [코드리뷰 요청 3단계](./review-step3.md)를 진행한다.
+5. 강의관리시스템의 리뷰요청 버튼을 클릭해 리뷰요청을 보낸다.
+![request code review](./images/etc/request_codereview.png)
+
+---
+6. 몇 번의 피드백을 주고 받은 후 승인이 되어 next-step 저장소에 통합(merge)이 된다면 [코드리뷰 요청 3단계](./review-step3.md)를 진행한다.
 
 * pull request가 승인이 되어 통합이 된 후의 상태는 다음과 같다.
 
