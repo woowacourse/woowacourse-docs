@@ -80,4 +80,4 @@
 - 2-3. Username을 본인의 Github Id로 저장해주세요. 깃허브 아이디는 https://github.com/wmakerjun 와 같은 형태로 접근 가능한 본인의 id입니다.
 ![slack_useranme](./images/slack_username.jpg)
 3. DisplayName을 `닉네임(이름)` 으로 변경합니다.
-- ![slack_useranme](./images/slack_display_name.jpg)
+![slack_useranme](./images/slack_display_name.jpg)
