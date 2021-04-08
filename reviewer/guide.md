@@ -58,7 +58,6 @@
 1. [우아한테크코스 LMS](https://techcourse.woowahan.com/)에 깃허브 로그인으로 가입해주세요.
 2. '프로필 이미지 > 나의 프로필'로 접근해서 이름을 `실명(닉네임)` 형태로 수정해주세요.
 ![lms_name](./images/lms_name.jpg)
-
 3. 프론트엔드 혹은 백엔드 수업에 접근 가능한지 확인해주세요
 ![sessions](./images/sessions.jpg)
 4. 강의 페이지에서는 실시간 리뷰 요청 현황을 파악할 수 있습니다. 
@@ -75,3 +74,7 @@
 - ![slack_useranme](./images/slack_username.jpg)
 3. DisplayName을 `닉네임(이름)` 으로 변경합니다.
 - ![slack_useranme](./images/slack_display_name.jpg)
+
+# 참고 링크
+- [우형 리뷰어분의 후기](https://woowabros.github.io/woowabros/2019/08/22/code-reviewer.html)
+- [뉴크루 온보딩 코드 리뷰어로 참여하기](https://tech.kakao.com/2021/04/08/welcome-new-krew3)
