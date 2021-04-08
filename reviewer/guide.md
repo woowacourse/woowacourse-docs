@@ -1,4 +1,10 @@
-우아한테크코스는 총 4단계의 레벨로 과정이 진행됩니다. 리뷰어분들은 레벨1~2 기간 동안 매 미션마다 5명의 학생에게 피드백을 남기며 소통하는 역할을 맡습니다. 각 미션에 대한 이해를 돕기 위한 미션 진행 시 가이드라인을 드릴 예정입니다. 하지만 리뷰어분들의 개성에 맞게 피드백을 주시면 학생들이 훨씬 다각도의 관점으로 고민하고 성장할 수 있습니다. 피드백을 통해 대화한다고 생각해주세요.
+우아한테크코스는 총 4단계의 레벨로 과정이 진행됩니다.
+리뷰어분들은 레벨1~2 기간 동안 매 미션마다 5명의 학생에게 피드백을 남기며 소통하는 역할을 맡습니다. 
+각 미션에 대한 이해를 돕기 위한 미션 진행 시 가이드라인을 드릴 예정입니다. 
+하지만 리뷰어분들의 개성에 맞게 피드백을 주시면 학생들이 훨씬 다각도의 관점으로 고민하고 성장할 수 있습니다. 
+피드백을 통해 대화한다고 생각해주세요.
+
+<br/>
 
 # 🗓️ 일정
 - 레벨1 - 약 9주: 2/2 ~ 4/2(일정은 매해 다소 상이함)
@@ -67,14 +73,14 @@
 1. 우아한테크코스 slack에 로그인해주세요.
 2. Username을 아래의 스텝에 따라 수정합니다.
 - 2-1. 우측 상단의 프로필을 클릭한후, 계정 설정으로 들어가주세요 
-- ![slack_profile](./images/slack_profile.jpg)
+![slack_profile](./images/slack_profile.jpg)
 - 2-2. 설정 마지막에 있는 Username 리스트의 `expand` 버튼을 클릭해주세요
-- ![account_setting](./images/account_setting.jpg)
+![account_setting](./images/account_setting.jpg)
 - 2-3. Username을 본인의 Github Id로 저장해주세요. 깃허브 아이디는 https://github.com/wmakerjun 와 같은 형태로 접근 가능한 본인의 id입니다.
-- ![slack_useranme](./images/slack_username.jpg)
+![slack_useranme](./images/slack_username.jpg)
 3. DisplayName을 `닉네임(이름)` 으로 변경합니다.
 - ![slack_useranme](./images/slack_display_name.jpg)
 
-# 참고 링크
+# 🔗 참고 링크
 - [우형 리뷰어분의 후기](https://woowabros.github.io/woowabros/2019/08/22/code-reviewer.html)
 - [뉴크루 온보딩 코드 리뷰어로 참여하기](https://tech.kakao.com/2021/04/08/welcome-new-krew3)
