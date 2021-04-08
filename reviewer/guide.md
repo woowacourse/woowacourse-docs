@@ -38,8 +38,6 @@
 
 ### 레벨2 - React를 이용한 애플리케이션 개발
 
-- [로또](https://github.com/woowacourse/react-lotto)
-- [지하철 노선도](https://github.com/woowacourse/react-subway)
 
 <br/>
 
