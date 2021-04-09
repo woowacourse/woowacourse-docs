@@ -79,6 +79,8 @@
 3. DisplayName을 `닉네임(이름)` 으로 변경합니다.
 ![slack_useranme](./images/slack_display_name.jpg)
 
+<br/>
+
 # 🔗 참고 링크
 - [우형 리뷰어분의 후기](https://woowabros.github.io/woowabros/2019/08/22/code-reviewer.html)
 - [뉴크루 온보딩 코드 리뷰어로 참여하기](https://tech.kakao.com/2021/04/08/welcome-new-krew3)
