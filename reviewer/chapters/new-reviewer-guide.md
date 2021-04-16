@@ -55,7 +55,7 @@
     - 페어로 진행하는 미션 단계가 1단계만일 수도, 2단계까지일 수도 있습니다. 미션마다 상이한 부분이 있어 미션 시작할 때 함께 공유드리겠습니다.
 - 이 PR에 대해서도 동일하게 피드백 후  `Request Changes`  &  `Squash and merge` 를 해주시면 됩니다.
 - 미션을 최종 마무리한 후에는 해당 크루에 대한 마무리 피드백을 해주셔야 합니다. 우테코는 피드백을 굉장히 중요하게 생각하는데요. 리뷰어분들이 작성해주시는 이 피드백을 운영진들이 취합하여 면담 시 크루들의 성장에 도움이 될 수 있게 활용하곤 합니다. 크루들에게 직접적으로 공개되진 않으니 편하게, 솔직하게 작성해주시면 될 것 같습니다. 시스템적으로도 리뷰어분들의 피드백이 있어야 크루들이 미션을 최종적으로 완료한 거로 처리되니 꼭 부탁드리겠습니다
-![crew_feedback](./images/crew_feedback.jpg)
+![crew_feedback](../images/crew_feedback.jpg)
 
 <br/>
 
@@ -63,23 +63,23 @@
 ## 우아한테크코스 LMS 셋팅
 1. [우아한테크코스 LMS](https://techcourse.woowahan.com/)에 깃허브 로그인으로 가입해주세요.
 2. '프로필 이미지 > 나의 프로필'로 접근해서 이름을 `실명(닉네임)` 형태로 수정해주세요.
-![lms_name](./images/lms_name.jpg)
+![lms_name](../images/lms_name.jpg)
 3. 프론트엔드 혹은 백엔드 수업에 접근 가능한지 확인해주세요
-![sessions](./images/sessions.jpg)
+![sessions](../images/sessions.jpg)
 4. 강의 페이지에서는 실시간 리뷰 요청 현황을 파악할 수 있습니다. 
-![session_detail](./images/session_detail.jpg)
+![session_detail](../images/session_detail.jpg)
 
 ## 우아한테크코스 Slack 셋팅
 1. 우아한테크코스 slack에 로그인해주세요.
 2. Username을 아래의 스텝에 따라 수정합니다.
 - 2-1. 우측 상단의 프로필을 클릭한후, 계정 설정으로 들어가주세요 
-![slack_profile](./images/slack_profile.jpg)
+![slack_profile](../images/slack_profile.jpg)
 - 2-2. 설정 마지막에 있는 Username 리스트의 `expand` 버튼을 클릭해주세요
-![account_setting](./images/account_setting.jpg)
+![account_setting](../images/account_setting.jpg)
 - 2-3. Username을 본인의 Github Id로 저장해주세요. 깃허브 아이디는 https://github.com/wmakerjun 와 같은 형태로 접근 가능한 본인의 id입니다.
-![slack_useranme](./images/slack_username.jpg)
+![slack_useranme](../images/slack_username.jpg)
 3. DisplayName을 `닉네임(이름)` 으로 변경합니다.
-![slack_useranme](./images/slack_display_name.jpg)
+![slack_useranme](../images/slack_display_name.jpg)
 
 <br/>
 
