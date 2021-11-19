@@ -139,7 +139,7 @@ ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse
 ## 제출 가이드
 이전 단계의 가이드에 따라 Pull Request를 보냈다면,     
 [우아한테크코스 지원 플랫폼](https://apply.techcourse.co.kr)에 접속하여 프리코스 과제를 제출해 주세요.    
-**Pull Request만 보내고, 메일을 보내지 않으면 미션을 제출하지 않은 것으로 처리되니 주의해 주세요.**    
+**Pull Request만 보내고, 지원 플랫폼에서 과제를 제출하지 않으면 최종 제출하지 않은 것으로 처리되니 주의해 주세요.**    
 
 ### 1. [우아한테크코스 지원 플랫폼](https://apply.techcourse.co.kr) > 내 지원 현황
 지원 플랫폼에 로그인한 뒤, 내 지원 현황 페이지에 접속해 주세요.      
