@@ -1,7 +1,8 @@
-## 프리코스 과제 진행 가이드
+# 프리코스 과제 가이드
+## 진행 가이드
 
 ---
-1. 프로젝트를 자신의 계정으로 fork한다. 저장소 우측 상단의 fork 버튼을 클릭해 fork한다.
+### 1. 프로젝트를 자신의 계정으로 fork한다. 저장소 우측 상단의 fork 버튼을 클릭해 fork한다.
 > woowacourse 저장소에 코드를 추가할 권한이 없기 때문에 구현한 코드를 추가할 수 없다.
 > 
 > fork는 woowacourse의 저장소를 자신의 계정으로 복사하는 기능이다. 앞으로 모든 미션은 자신의 계정 아래에 있는 저장소를 활용해 진행한다.
@@ -13,7 +14,7 @@ fork를 완료한 후의 저장소 상태는 다음과 같다.
 ![fork my repo](./images/fork_my_repo.jpg)
 
 ---
-2. fork한 저장소를 자신의 컴퓨터로 clone한 후 폴더로 이동한다.
+### 2. fork한 저장소를 자신의 컴퓨터로 clone한 후 폴더로 이동한다.
 > fork한 저장소는 github.com에 존재하기 때문에 소스 코드를 추가하고, 수정하는 작업을 할 수 없다.
 >
 > clone 명령은 github.com에 존재하는 저장소를 자신의 노트북 또는 PC로 복사하는 과정이다.
@@ -35,7 +36,7 @@ clone을 완료한 후의 저장소 상태는 다음과 같다.
 ![clone repository](./images/clone_repository.jpg)
 
 ---
-3. 기능 구현을 위한 브랜치 생성
+### 3. 기능 구현을 위한 브랜치 생성
 > git은 서로 다른 작업을 하기 위한 별도의 공간을 생성할 때 브랜치를 생성할 수 있다.
 
 터미널에서 다음 명령을 입력해 브랜치를 생성한다.
@@ -49,7 +50,7 @@ ex) git checkout -b javajigi
 ![checkout javajigi](./images/checkout_javajigi.jpg)
 
 ---
-4. 통합개발도구(Eclipse 또는 IntelliJ)로 가져오기(import)
+### 4. 통합개발도구(Eclipse 또는 IntelliJ)로 가져오기(import)
 > 미션 진행을 위해 자신이 사용하고 있는 통합개발도구로 가져오기 한다. 이 문서는 IntelliJ를 기준으로 한다.
 
 * IntelliJ를 시작
@@ -65,11 +66,11 @@ ex) git checkout -b javajigi
 * 다음 화면에서 Finish 버튼을 클릭해 가져오기를 완료한다.
 
 ---
-5. 기능 구현
+### 5. 기능 구현
 > 미션 요구사항을 파악해 기능을 구현한다.
 
 ---
-6. 기능 구현 후 add, commit
+### 6. 기능 구현 후 add, commit
 > 기능 구현을 완료한 후 로컬 저장소에 변경된 부분을 반영하기 위해 add, commit 명령을 사용한다.
 
 ```
@@ -82,7 +83,7 @@ git commit -m "메시지" // 작업한 내용을 메시지에 기록
 ![add commit1](./images/add_commit.jpg)
 
 ---
-7. 본인 원격 저장소에 올리기
+### 7. 본인 원격 저장소에 올리기
 > 로컬에서 commit 명령을 실행하면 로컬 저장소에만 반영되고, 원격 github.com의 저장소에는 반영되지 않는다.
 
 ```
@@ -94,7 +95,7 @@ push 명령을 실행한 후의 상태는 다음과 같다.
 ![push1](./images/push.jpg)
 
 ---
-8. github 서비스에서 pull request를 보낸다.
+### 8. github 서비스에서 pull request를 보낸다.
 > pull request는 github에서 제공하는 기능으로 코드리뷰 요청을 보낼 때 사용한다.
 > 
 > pull request는 original 저장소(woowacourse의 저장소)의 master 브랜치와 앞 단계에서 생성한 브랜치 이름(앞 단계의 예에서는 javajigi)을 기준으로 한다.
@@ -116,7 +117,24 @@ ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse
 pull request를 보냈을 때의 상태는 다음과 같다.
 ![pull request](./images/pull_request.jpg)
 
----
+--- 
+<br/>
 
-Pull Request를 보냈다면, [제출 가이드](./submit-guide/README.md)를 참고해 우아한테크코스 지원 플랫폼에서 과제를 제출해주세요.    
-**Pull Request만 보내고, 메일을 보내지 않으면 미션을 제출하지 않은 것으로 처리되니 착오 없기를 바랍니다.**
+## 제출 가이드
+이전 단계의 가이드에 따라 Pull Request를 보냈다면,      
+[우아한테크코스 지원 플랫폼](https://apply.techcourse.co.kr/)에 접속하여 프리코스 과제를 제출해주세요.     
+**Pull Request만 보내고, 메일을 보내지 않으면 미션을 제출하지 않은 것으로 처리되니 주의해주세요 **
+
+
+### 1. [우아한테크코스 지원 플랫폼](https://apply.techcourse.co.kr/) > 내 지원 현황
+지원 플랫폼에 로그인 한 뒤, 내 지원 현황 페이지에 접속해주세요.       
+내가 지원한 과정(ex. 웹 백엔드 / 웹 프론트엔드)에 프리코스 과제가 생긴 것을 확인하실 수 있습니다.     
+![내 지원 현황 페이지](./images/precourse_apply_01.jpg)
+
+### 2. 프리코스 과제 제출
+GitHub ID, Pull Request 주소, 과제 진행 소감을 모두 입력하고 제출해주세요.       
+과제 진행 소감에는 미션을 진행하면서 느끼고 배운점, 많은 시간을 투자한 부분 등도 포함하면 더 좋을 것 같습니다 🙂
+- 한 번 제출한 뒤에도 해당 주차의 프리코스 기한 내에는 수정하실 수 있습니다. 
+- GitHub ID에는 아래 이미지를 참고해 GitHub username을 확인하여 입력해주세요.
+![github id 안내](./images/precourse_apply_02.jpg)
+
