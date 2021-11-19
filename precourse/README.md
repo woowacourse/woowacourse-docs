@@ -50,9 +50,11 @@ ex) git checkout -b javajigi
 ![checkout javajigi](./images/checkout_javajigi.jpg)
 
 ---
-### 4. 통합개발도구(Eclipse 또는 IntelliJ)로 가져오기(import)
-> 미션 진행을 위해 자신이 사용하고 있는 통합개발도구로 가져오기 한다. 이 문서는 IntelliJ를 기준으로 한다.
+### 4. 통합개발도구로 가져오기(import)
+> 미션 진행을 위해 자신이 사용하고 있는 통합개발도구로 가져오기 한다. 
 
+### 4.1 웹 백엔드
+> Eclipse 또는 IntelliJ 등 자신이 사용하는 도구를 사용해서 진행해주세요. 이 문서에서는 IntelliJ를 기준으로 설명합니다.
 * IntelliJ를 시작
 * 다음 화면에서 Import Project
 
@@ -64,6 +66,15 @@ ex) git checkout -b javajigi
 ![import2](./images/etc/import2.png)
 
 * 다음 화면에서 Finish 버튼을 클릭해 가져오기를 완료한다.
+
+### 4.2 웹 프론트엔드
+> 자신이 사용하는 도구를 사용해서 진행해주세요. 이 문서에서는 VSCode를 기준으로 설명합니다.
+* VSCode를 시작
+* Open Project
+
+![open project](./images/precourse_vscode.jpg)
+
+* 앞에서 clone한 폴더를 선택한다.
 
 ---
 ### 5. 기능 구현
