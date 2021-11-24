@@ -113,10 +113,11 @@ ex) git push origin javajigi
 ### 8. github 서비스에서 Pull Request를 보낸다.
 > Pull Request는 github에서 제공하는 기능으로 코드리뷰 요청을 보낼 때 사용합니다.
 > 
-> Pull Request는 original 저장소(woowacourse의 저장소)의 master 브랜치와 앞 단계에서 생성한 브랜치 이름(앞 단계의 예에서는 javajigi)을 기준으로 합니다.
+> Pull Request는 original 저장소(woowacourse의 저장소)의 main 브랜치와 앞 단계에서 생성한 브랜치 이름(앞 단계의 예에서는 javajigi)을 기준으로 합니다.
 
 ```
-ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse/java-baseball master 브랜치로 Pull Request를 보낸다.
+ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse/java-baseball main
+브랜치로 Pull Request를 보낸다.
 ```
 
 * 브라우저에서 github 저장소에 접근
