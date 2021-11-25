@@ -126,9 +126,10 @@ ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse
 
 ![pull request 보내기](./images/etc/pull_request_1.png)
 
-* 현재 미션에서 작업한 내용을 입력하고 **"Create pull request"** 버튼을 클릭해 Pull Request를 보내주세요.
+* Pull Request 제목은 `[$미션제목] $이름 미션 제출합니다.` 형식으로 작성해주세요. 
+* 현재 미션에서 작업한 내용을 입력하고 **"Create pull request"** 버튼을 클릭해 Pull Request를 보내주세요. 
 
-![pull request 브랜치 변경](./images/etc/pull_request_2.png)
+![pull request 브랜치 변경](./images/etc/pull_request_2.jpg)
 
 * Pull Request를 보냈을 때의 상태는 아래와 같습니다.
 
