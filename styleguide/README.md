@@ -4,5 +4,5 @@
 
 ## 스타일 가이드
 
-- [JavaScript](./javscript)
+- [JavaScript](./javascript)
 - [Java](./java)
