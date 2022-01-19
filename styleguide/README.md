@@ -6,3 +6,8 @@
 
 - [JavaScript](./javascript)
 - [Java](./java)
+
+
+## 👏🏼 Contributing
+
+Style Guide에 대해 제안 사항이 있다면 [Issues](https://github.com/woowacourse/woowacourse-docs/issues)에 등록해주시거나 PR을 보내주세요. 
