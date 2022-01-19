@@ -183,7 +183,7 @@ const foo = function bar() {
 
 ## 23. Naming Conventions
 
-> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#naming-conventions)와 동일합니다.
+> `23.11 ~ 23.16`를 제외하고 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#naming-conventions)와 동일합니다.
 
 - [23.11](#23.11) <a name='23.11'></a>소스의 변수명, 클래스명 등에는 영문 이외의 언어를 사용하지 않습니다.
 
