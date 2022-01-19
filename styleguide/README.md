@@ -4,8 +4,8 @@
 
 ## 스타일 가이드
 
-- [JavaScript](./javascript)
 - [Java](./java)
+- [JavaScript](./javascript)
 
 
 ## 👏🏼 Contributing
