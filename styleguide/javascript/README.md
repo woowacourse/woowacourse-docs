@@ -54,6 +54,10 @@
 
 ## 6. Strings
 
+> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#strings)와 동일합니다.
+
+## 7. Functions
+
 > `7.1 ~ 2` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#functions)와 동일합니다.
 
 - [7.1](#7.1) <a name='7.1'></a>함수 스타일에 대해서 특정 가이드를 제공하지 않습니다. eslint: [`func-style`](http://eslint.org/docs/rules/func-style)
@@ -88,10 +92,6 @@ const foo = function bar() {
   console.log("Welcome to the Internet. Please follow me.");
 })();
 ```
-
-## 7. Functions
-
-> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#functions)와 동일합니다.
 
 ## 8. Arrow Functions
 
