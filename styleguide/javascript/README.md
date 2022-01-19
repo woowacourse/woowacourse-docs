@@ -54,42 +54,40 @@
 
 ## 6. Strings
 
-> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#strings)와 동일합니다.
-
 > `7.1 ~ 2` 항목을 제외하고는 [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#functions)와 동일합니다.
 
 - [7.1](#7.1) <a name='7.1'></a>함수 스타일에 대해서 특정 가이드를 제공하지 않습니다. eslint: [`func-style`](http://eslint.org/docs/rules/func-style)
 
-  ```javascript
-  // type 1
-  function foo() {
-    // ...
-  }
+```javascript
+// type 1
+function foo() {
+  // ...
+}
 
-  // type 2
-  const foo = function () {
-    // ...
-  };
+// type 2
+const foo = function () {
+  // ...
+};
 
-  // type 3
-  const foo = function bar() {
-    // ...
-  };
-  ```
+// type 3
+const foo = function bar() {
+  // ...
+};
+```
 
-  - [7.2](#7.2) <a name='7.2'></a>즉시 실행함수는 함수를 괄호로 감싸줍니다. eslint: [`wrap-iife`](http://eslint.org/docs/rules/wrap-iife.html)
+- [7.2](#7.2) <a name='7.2'></a>즉시 실행함수는 함수를 괄호로 감싸줍니다. eslint: [`wrap-iife`](http://eslint.org/docs/rules/wrap-iife.html)
 
-    ```javascript
-    // bad
-    (function () {
-      console.log("Welcome to the Internet. Please follow me.");
-    })();
+```javascript
+// bad
+(function () {
+  console.log("Welcome to the Internet. Please follow me.");
+})();
 
-    // good
-    (function () {
-      console.log("Welcome to the Internet. Please follow me.");
-    })();
-    ```
+// good
+(function () {
+  console.log("Welcome to the Internet. Please follow me.");
+})();
+```
 
 ## 7. Functions
 
