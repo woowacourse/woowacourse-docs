@@ -101,7 +101,7 @@
 
 ## 18. Whitespace
 
-[Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#whitespace)와 동일합니다.
+> [Airbnb](https://github.com/airbnb/javascript/blob/master/README.md#whitespace)와 동일합니다.
 
 ## 19. Commas
 
