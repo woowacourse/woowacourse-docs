@@ -2,7 +2,9 @@
 
 우아한테크코스의 자바스크립트 스타일 가이드는 [Airbnb 자바스크립트 스타일 가이드](https://github.com/airbnb/javascript)를 기준으로 합니다. 기본 Airbnb가이드 외에 아래의 가이드를 함께 준수하도록 합니다.
 
-## Naming Conventions
+## 네이밍 컨벤션
+
+### 기본
 
 - 소스의 변수명, 클래스명 등에는 영문 이외의 언어를 사용하지 않습니다.
 
@@ -29,6 +31,23 @@
   // good
   const FIREFOX = 1;
   const IS_LEFT = true;
+
+  // bad - unnecessarily uppercases key while adding no semantic value
+  export const MAPPING = {
+    KEY: "value",
+  };
+
+  // good
+  export const MAPPING = {
+    key: "value",
+  };
   ```
 
-  
+- 변수에 타입이나 자료구조형 명시하지 않습니다.
+
+ ```js
+// bad
+const compareTwoArray = (numbers1, numbers2) => {}
+// good!
+const compareNumbers = (numbers1, numbers2) => {}
+```
