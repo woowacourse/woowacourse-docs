@@ -48,6 +48,19 @@
  ```js
 // bad
 const compareTwoArray = (numbers1, numbers2) => {}
-// good!
+// good
 const compareNumbers = (numbers1, numbers2) => {}
+```
+
+### 파일 & 패키지
+- 소스코드 파일의 이름은 알파벳 소문자, 하이픈( - ), 밑줄( _ ) 으로만 작성합니다.
+- 패키지의 이름은 lowerCamelCase로 표기합니다.
+
+```js
+// bad
+woowacourse.frontendcourse
+woowacourse.frontend_course
+
+// good
+woowacourse.frontendCourse
 ```
