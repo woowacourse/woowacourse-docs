@@ -7,7 +7,6 @@
 ### 기본
 
 - 소스의 변수명, 클래스명 등에는 영문 이외의 언어를 사용하지 않습니다.
-
 - 클래스, 메서드 등의 이름에는 특수 문자를 사용하지 않습니다.
 
   ```js
@@ -16,8 +15,6 @@
 
   }
   ```
-
-- 클래스명과 변수명은 `명사`를 사용합니다.
 - 상수명은 SNAKE_CASE로 작성합니다.
 
   ```js
@@ -29,16 +26,4 @@
   const FIREFOX = 1;
   const IS_LEFT = true;
   ```
-
-### 파일 & 패키지
-- 소스코드 파일의 이름은 알파벳 소문자, 하이픈( - ), 밑줄( _ ) 으로만 작성합니다.
-- 패키지의 이름은 camelCase로 표기합니다.
-
-  ```js
-  // bad
-  woowacourse/frontendcourse
-  woowacourse/frontend_course
-
-  // good
-  woowacourse/frontendCourse
-  ```
+ 
