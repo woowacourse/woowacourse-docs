@@ -43,7 +43,7 @@ ex) cd java-baseball
 * 터미널에서 다음 명령을 입력해 브랜치를 생성합니다.
 
 ```
-git checkout -b {브랜치이름}
+git checkout -b {본인 아이디}
 ex) git checkout -b javajigi
 ```
 
