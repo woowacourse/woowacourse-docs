@@ -9,6 +9,7 @@
 * [웹 체스](./chess.md)
 * [지하철 노선도 관리](./subway-map.md)
 * [지하철 경로 조회](./subway-path.md)
+* [장바구니](./shopping-cart.md)
 
 ---
 ## 리뷰어 -> 수강생 상호 평가
