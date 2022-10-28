@@ -7,6 +7,7 @@
 
 - [Java](./java)
 - [JavaScript](./javascript)
+- [Kotlin](./kotlin)
 
 ## 👏🏼 Contributing
 
