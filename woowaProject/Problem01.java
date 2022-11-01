@@ -28,7 +28,6 @@ public class Problem01 {
             answer = -1;
         return answer;
     }
-
     public int sum (int num){//각 자릿수의 합을 반환하는 메서드
         int hap = 0;
         while(num!=0){
