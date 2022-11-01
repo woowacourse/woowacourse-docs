@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-11.0.17.jdk/Contents/Home" version="11.0.17"/>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-18.jdk/Contents/Home" version="18"/>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/zulu-18.jdk/Contents/Home" version="18.0.2.1"/>
+    <libraryInfo home="/Users/yechan/Library/Java/JavaVirtualMachines/corretto-11.0.17/Contents/Home" version="11.0.17"/>
+</libraryInfos>

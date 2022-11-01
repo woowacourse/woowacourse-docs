@@ -1,0 +1,38 @@
+package woowacourse_week1;
+
+import java.util.Scanner;
+
+public class Problem4 {
+	public static boolean checkException(String str) {
+		if (str.length() < 1 || str.length() > 10000) {
+			return false;
+		}
+		return true;
+	}
+
+	public static String solution(String str) {
+		String result = "";
+		if (!checkException(str)) {
+			result = "글자를 다시 입력하여 주세요";
+		} else {
+			char[] words = str.toCharArray();
+			for (char word : words) {
+				if (word == 32) {
+					result += " ";
+				} else if (Character.isUpperCase(word)) {
+					int com = 155;
+					char resultword = (char) (com - word);
+					result += resultword;
+				} else {
+					int com = 219;
+					char resultword = (char) (com - word);
+					result += resultword;
+				}
+
+			}
+		}
+
+		return result;
+	}
+	
+}
