@@ -1,7 +1,5 @@
-package woowaProject;
-
 public class Problem04 {
-    private static String rtString(String word){
+    public String solution(String word){
         String answer = "";
         int k;
         char c;
@@ -10,22 +8,18 @@ public class Problem04 {
             arr[i] = word.charAt(i);
         }
         for(int i = 0; i<arr.length; i++){
-            if(arr[i]>64 && arr[i] <91){//i번째 문자가 대문자면
+            if(arr[i]>64 && arr[i] <91){
                 k = arr[i] - 65;
                 c = (char)(90 - k);
                 answer += c;
-            } else if (arr[i] >96 && arr[i] < 123){//i번째 문자가 소문자면
+            } else if (arr[i] >96 && arr[i] < 123){
                 k = arr[i] - 97;
                 c = (char)(122 - k);
                 answer += c;
-            } else if (arr[i] == ' '){//띄어쓰기
+            } else if (arr[i] == ' '){
                 answer += arr[i];
             }
         }
-        System.out.println(answer);
-
         return answer;
-
     }
-
 }

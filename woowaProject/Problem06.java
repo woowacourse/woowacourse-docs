@@ -6,8 +6,28 @@ import java.util.HashSet;
 import java.util.List;
 
 public class Problem06 {
-    private static void solution(String[][] arr) {
+    public String[] solution(String[][] arr){
+        List<String> strList = similarNameSet(arr);
+        String[] s = getEmailList(arr, strList);
+        for(int i = 0; i<s.length; i++){
+            System.out.println(s[i]);
+        }
+        return s;
+    }
+    private static String[] getEmailList(String[][] arr, List<String> strList) {
         ArrayList<String> strAry = new ArrayList<>();
+        for(int i = 0; i< arr.length; i++){
+            for(int j = 0; j< strList.size(); j++){
+                if(arr[i][1].contains(strList.get(j))){
+                    strAry.add(arr[i][0]);
+                }
+            }
+        }
+        String[] s = strAry.toArray(new String[0]);
+        Arrays.sort(s);
+        return s;
+    }
+    private static List<String> similarNameSet(String[][] arr) {
         HashSet<String> set = new HashSet<>();
         for(int i = 0; i < arr.length-1; i++){
             for(int j = i+1; j < arr.length; j++){
@@ -17,21 +37,9 @@ public class Problem06 {
             }
         }
         set.remove(null);
-        List<String> strList = new ArrayList<>(set);
-        for(int i = 0; i< arr.length; i++){
-            for(int j = 0; j<strList.size(); j++){
-                if(arr[i][1].contains(strList.get(j))){
-                    strAry.add(arr[i][0]);
-                }
-            }
-        }
-        String[] s = strAry.toArray(new String[0]);
-        Arrays.sort(s);
-        for(int i = 0; i<s.length; i++){
-            System.out.println(s[i]);
-        }
+        List<String> strList = new ArrayList<>(set); // set의 List화
+        return strList;
     }
-
     private static String[] rtString(String str_1, String str_2){
         String[] answer = new String[2];
         String name_1;
@@ -47,7 +55,6 @@ public class Problem06 {
             }
         }
         return answer;
-
     }
 
 }

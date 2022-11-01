@@ -1,7 +1,7 @@
 package woowaProject;
 
 public class Problem05 {
-    private static int[] rsArr(int money){
+    public int[] solution(int money){
         int[] arr = {0,0,0,0,0,0,0,0,0};
         arr[0] = money/50000;
         money%=50000;
@@ -20,9 +20,6 @@ public class Problem05 {
         arr[7] = money/10;
         money%=10;
         arr[8] = money;
-        for(int i = 0; i<arr.length; i++){
-            System.out.println(arr[i]);
-        }
         return arr;
     }
 }
