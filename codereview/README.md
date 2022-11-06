@@ -5,7 +5,7 @@
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/46308949/197687317-9a24f9fa-d98f-4996-bc4a-d4ac76cc205e.png">
 
 ### 2. 코멘트 남기고 싶은 라인 클릭
-- 코드릴 읽고 코멘트를 남기고 싶은 부분을 찾아서 라인 번호에 마우스를 가져다 댄 후 `+` 버튼을 클릭합니다.
+- 코드를 읽고 코멘트를 남기고 싶은 부분을 찾아서 라인 번호에 마우스를 가져다 댄 후 `+` 버튼을 클릭합니다.
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/46308949/197687316-d3f5f8af-4ac5-4b01-bcc0-b209b08675fc.png">
 
 ### 3. 코멘트 작성 후 Start a reivew 클릭
