@@ -9,10 +9,10 @@
 
 ## 미션별 리뷰어 가이드
 
-* [웹 체스](./chess.md)
-* [지하철 노선도 관리](./subway-map.md)
-* [지하철 경로 조회](./subway-path.md)
-* [장바구니](./shopping-cart.md)
+* [자동차 경주](./jwp-racingcar.md)
+* [장바구니](./jwp-shopping-cart.md)
+* [지하철](./jwp-subway.md)
+* [장바구니(협업)](./jwp-shopping-order.md)
 
 ---
 
