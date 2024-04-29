@@ -23,6 +23,9 @@
 - 피드백 나누기(5분)
 ```
 
+- [피드백 설문](https://docs.google.com/spreadsheets/d/1SDrx5klQl9U8n6qXwftioqwkpmfP9OSr1nYTZqw8pmk/edit?usp=sharing) 작성
+- [한 줄 회고](https://docs.google.com/spreadsheets/d/1SDrx5klQl9U8n6qXwftioqwkpmfP9OSr1nYTZqw8pmk/edit?usp=sharing) 작성
+
 ## 메타인지 말하기 FAQ
 ### 말하기 주제는 어떻게 선정하면 좋을까요?
 - 미션을 수행하면서 알게된 점 혹은 학습한 내용
