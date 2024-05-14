@@ -12,7 +12,7 @@
 
 * [방탈출 예약 관리](./roomescape-admin.md)
 * [방탈출 사용자 예약](./roomescape-member.md)
-* [방탈출 예약 대기](./roomescape-wating.md)
+* [방탈출 예약 대기](./roomescape-waiting.md)
 * [방탈출 결제/배포](./roomescape-payment.md)
 
 
