@@ -1,0 +1,46 @@
+import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class StringCalculator {
+
+    public static int add(String input) {
+        if (input == null || input.isEmpty()) {
+            return 0;
+        }
+
+        String delimiter = ",|:";  
+
+        if (input.startsWith("//")) {
+            Matcher matcher = Pattern.compile("//(.)\n(.*)").matcher(input);
+            if (matcher.find()) {
+                delimiter = matcher.group(1);  
+                input = matcher.group(2);    
+            }
+        }
+
+        return Arrays.stream(input.split(delimiter))
+                .mapToInt(StringCalculator::parsePositiveInt)
+                .sum();
+    }
+
+    private static int parsePositiveInt(String value) {
+        int number = Integer.parseInt(value);
+        if (number < 0) {
+            throw new IllegalArgumentException("음수는 입력할 수 없습니다: " + number);
+        }
+        return number;
+    }
+
+    public static void main(String[] args) {
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        System.out.println("덧셈할 문자열을 입력해 주세요.");
+        String input = scanner.nextLine();
+        try {
+            int result = add(input);
+            System.out.println("결과: " + result);
+        } catch (IllegalArgumentException e) {
+            System.err.println("에러: " + e.getMessage());
+        }
+    }
+}
