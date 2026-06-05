@@ -1,0 +1,128 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1774506945929,
+  "projectRoot": "/Users/euijinkk/Desktop/projects/wtc-projects/woowacourse-docs",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "cleancode": {
+      "path": "cleancode",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1774506945883,
+      "keyFiles": [
+        "README.md",
+        "pr_checklist.md"
+      ]
+    },
+    "codereview": {
+      "path": "codereview",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1774506945884,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "consulting": {
+      "path": "consulting",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1774506945884,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "maincourse": {
+      "path": "maincourse",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1774506945885,
+      "keyFiles": [
+        "README.md",
+        "review-step1.md",
+        "review-step2.md",
+        "review-step3.md"
+      ]
+    },
+    "precourse": {
+      "path": "precourse",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1774506945885,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "privacypolicy": {
+      "path": "privacypolicy",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1774506945886,
+      "keyFiles": [
+        "woowacourse-app-privacy-policy.md"
+      ]
+    },
+    "reviewer": {
+      "path": "reviewer",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1774506945886,
+      "keyFiles": [
+        "README.md",
+        "review-guide.md",
+        "review-process.md"
+      ]
+    },
+    "studylog": {
+      "path": "studylog",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1774506945887,
+      "keyFiles": [
+        "README.md",
+        "meta-speech.md",
+        "selfcheck.md",
+        "studylog.md"
+      ]
+    },
+    "styleguide": {
+      "path": "styleguide",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1774506945887,
+      "keyFiles": [
+        "README.md"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
